@@ -1,4 +1,3 @@
-// Article component displays a single blog post preview
 function Article({ title, date, preview }) {
   return (
     <article>

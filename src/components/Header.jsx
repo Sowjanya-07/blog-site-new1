@@ -1,4 +1,6 @@
-// Header component displays the blog title
+// Displays the blog title.
+// Parent: App
+
 function Header({ name }) {
   return (
     <header>

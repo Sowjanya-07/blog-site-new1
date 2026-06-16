@@ -1,8 +1,15 @@
-// About component shows blog info and logo
+// Displays blog information and logo.
+// Parent: App
+
 function About({ image, about }) {
   return (
     <aside>
-      <img src={image} alt="blog logo" />
+      <img
+        src={image}
+        alt="blog logo"
+        width="150"
+      />
+
       <p>{about}</p>
     </aside>
   );
